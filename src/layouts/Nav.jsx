@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 export default function Nav() {
     return (
-        <nav className='nav'>
+        <nav className='nav container' >
             <ul className='menu'>
                 <li>
                     <NavLink to='/'>Home</NavLink>

@@ -2,7 +2,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import HomePage from "./pages/HomePage"
 import About from "./pages/About"
 import Posts from "./pages/Posts"
-import Nav from "./layouts/Nav"
 import DefaultLayout from "./layouts/DefaultLayout"
 
 

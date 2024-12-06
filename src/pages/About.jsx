@@ -1,5 +1,9 @@
 export default function About() {
     return (
-        <div>about</div>
+        <main className="container">
+            <div className="center">
+                about
+            </div>
+        </main>
     )
 }
