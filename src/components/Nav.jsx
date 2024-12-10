@@ -7,11 +7,12 @@ export default function Nav() {
                     <NavLink to='/'>Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to='/about'>About</NavLink>
-                </li>
-                <li>
                     <NavLink to='/posts'>Post</NavLink>
                 </li>
+                <li>
+                    <NavLink to='/about'>About</NavLink>
+                </li>
+
             </ul>
         </nav>
     )
