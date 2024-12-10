@@ -16,6 +16,11 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
 }
 
 ul,
@@ -61,9 +66,30 @@ nav .active {
 .container {
   max-width: 1024px;
   margin: 0 auto;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-6 {
+  width: calc(100% / 12 * 6);
   padding: 15px;
 }
 
 .center {
   text-align: center;
+}
+
+.hero {
+  width: 100%;
+  padding: 15px;
+}
+
+.hero img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
 }

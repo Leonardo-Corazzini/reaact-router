@@ -3,7 +3,7 @@ import Nav from './Nav';
 export default function Header() {
     return (
         <header>
-            <h1>React router</h1>
+            <h1 className='center'>Ricette della mamma</h1>
             <Nav />
         </header>
     )
